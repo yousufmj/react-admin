@@ -31,7 +31,7 @@ export default class TopNav extends Component {
     }
     render() {
         return (
-            <div>
+            <header>
                 <Navbar color="dark" dark expand="md">
                     <NavbarBrand href="/">Dashboard</NavbarBrand>
                     <NavbarToggler onClick={this.toggle}/>
@@ -48,7 +48,7 @@ export default class TopNav extends Component {
                         </Nav>
                     </Collapse>
                 </Navbar>
-            </div>
+            </header>
         );
     }
 }
