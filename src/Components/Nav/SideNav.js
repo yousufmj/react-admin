@@ -16,7 +16,6 @@ export default class SideNav extends Component {
 
     render() {
         return (
-            <div className="container-fluid">
                 <Row>
 
                     <nav class="col-md-2 d-none d-md-block bg-dark sidebar">
@@ -39,7 +38,6 @@ export default class SideNav extends Component {
                     </nav>
 
                 </Row>
-            </div>
         )
     }
 

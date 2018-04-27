@@ -7,7 +7,11 @@ class App extends Component {
     return (
       <div className="App">
             <TopNav />
-            <SideNav />
+
+            <div className="container-fluid">
+                <SideNav />
+
+            </div>
       </div>
     );
   }
